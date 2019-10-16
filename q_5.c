@@ -17,7 +17,7 @@ do
   printf("Enter the bet amount") ;
   scanf("%d", &betAmount) ;
 } 
-while(betAmount>=bankbalance) 
+while(betAmount>=bankbalance);
 
 srand(time(NULL));
 // Create 2 random numbers dice1 and dice2 between 1 and 6
