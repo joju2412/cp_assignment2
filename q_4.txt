@@ -1,0 +1,15 @@
+In the program 3 symbolic constants are intialized CONTINUE 1 WON 2 LOST 3.
+In the program using rand() function 2 numbers are generated. Using 
+dice1=1+rand()%6 one value is generated and similarly dice2 is also generated 
+Sum of dice1 and dice2 are found and that value is passed to a switch statement 
+If the value of sum is 11 case 11 is executed and gameStatus=WON If sum is 12
+case 12 is executed and gameStatus=LOST. If value of sum is not matching with case then
+Default case us executed where gameStatus=continue and mypoint=sum. Then there is while 
+loop while(CONTINUE==gameStatus) This loop works only if default case was executed 
+In the loop dice1 and dice2 are generated as shown in the beginning and their sum is found then there is an if statement 
+if(sum==mypoint) then gameStatus=WON In the else part the sum is checked if(sum==7)
+gameStatus=LOST.If the  if else statement doesn't run at least once then the loop will
+run again since condition inside while loop remains true. At last if(WON==gameStatus) 
+The player wins else the player looses
+
+ 
